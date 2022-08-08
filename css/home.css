@@ -1,0 +1,81 @@
+/* Import Font Yang Dibutuhkan */
+/* Muli Bold Ver */
+@font-face {
+  font-family: Muli;
+  src: url(../assets/fonts/Muli-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+/* Muli Regular Ver */
+@font-face {
+  font-family: Muli;
+  src: url(../assets/fonts/Muli-Regular.ttf) format("truetype");
+}
+
+/* Muli Light Ver */
+@font-face {
+  font-family: Muli;
+  src: url(../assets/fonts/Muli-Light.ttf) format("truetype");
+  font-weight: lighter;
+}
+
+/* Muli Black Ver */
+@font-face {
+  font-family: Muli;
+  src: url(../assets/fonts/Muli-Black.ttf) format("truetype");
+  font-weight: bolder;
+}
+
+/* Akhir Import Font */
+
+/* Penggunaan font keseluruh area body */
+body {
+  font-family: "Muli", Roboto;
+  color: #19345e;
+}
+
+/* Pengaturan Ukuran Logo Agar Tidak Terlalu Besar */
+.navbar-brand img {
+  width: 110px;
+  height: 59px;
+  max-width: 100%;
+}
+
+/* Override Navbar Warna Text dari Default Bootstrap */
+.color-nav {
+  color: #19345e;
+  text-decoration: none;
+}
+
+/* Pemberian Jarak Antar Nav Item */
+.nav-item {
+  margin: 1vw;
+}
+
+/* Pemberian Style Ketika Nav Item dihover */
+.color-nav:hover {
+  color: #f47522;
+  text-decoration: none;
+}
+/* Pewarnaan Nav Item Yang Aktif */
+.active {
+  color: #f47522;
+}
+/* Custom Button Agar Sesuai Prototype */
+.myButton {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border-color: #f47522;
+  display: inline-block;
+  cursor: pointer;
+  color: #f47522;
+  font-size: 16px;
+  text-decoration: none;
+  height: 100%;
+  width: 15%;
+}
+
+.myButton:hover {
+  background-color: #f47522;
+  color: #ffffff;
+}

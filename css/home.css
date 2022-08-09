@@ -2,6 +2,13 @@
 /* Popins Regular */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins&display=swap");
 
+/* Muli Black Ver */
+@font-face {
+  font-family: Muli;
+  src: url(../assets/fonts/Muli-Black.ttf) format("truetype");
+  font-weight: bolder;
+}
+
 /* Muli Bold Ver */
 @font-face {
   font-family: Muli;
@@ -22,19 +29,13 @@
   font-weight: lighter;
 }
 
-/* Muli Black Ver */
-/* @font-face {
-  font-family: Muli;
-  src: url(../assets/fonts/Muli-Black.ttf) format("truetype");
-  font-weight: bolder;
-} */
-
 /* Akhir Import Font */
 
 /* Penggunaan font keseluruh area body */
 body {
   font-family: "Muli", Roboto;
   color: #19345e;
+  height: 3000px;
 }
 
 /* Pengaturan Ukuran Logo Agar Tidak Terlalu Besar */
@@ -73,7 +74,7 @@ body {
   display: inline-block;
   cursor: pointer;
   color: #f47522;
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   font-weight: bold;
   height: 100%;
@@ -83,4 +84,87 @@ body {
 .myButton:hover {
   background-color: #f47522;
   color: #ffffff;
+}
+
+/* Customisasi Jumbotron/Hero Section */
+.jumbotron {
+  background-color: #edf6ff;
+}
+
+.h1,
+.h2,
+.h6 {
+  font-weight: bold;
+}
+
+.h2 {
+  font-weight: bolder;
+  font-size: 1.563rem;
+}
+.h1 {
+  font-size: 2.813rem;
+  font-family: Roboto, Muli;
+}
+
+.h6 {
+  font-size: 1.063rem;
+}
+.orange-text {
+  color: #f47522;
+}
+
+.sport-team {
+  background-image: url(../assets/img/sport-team.png);
+  background-size: cover;
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.myButton2 {
+  background-color: #f47522;
+  border-radius: 28px;
+  border-color: #f47522;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  height: 100%;
+  width: 50%;
+}
+
+.myButton2:hover {
+  background-color: #ffffff;
+  color: #f47522;
+}
+
+.sport-team:hover {
+  background-image: url(../assets/img/sport-team-hover.png);
+  background-size: cover;
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+/* Customisasi Badge */
+.rounded-orange-bg {
+  background-color: #f47522;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.inline-p p {
+  display: block;
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+/* about section custom */
+.line {
+  line-height: 100px;
 }

@@ -237,6 +237,12 @@ body {
   content: " ⟶";
 }
 
+/* BLog Section */
+
+.hover-link a:hover {
+  color: #f47522;
+}
+
 /* footer */
 .footer {
   background-color: #19345e;

@@ -98,6 +98,7 @@ body {
 .sport-team {
   background-image: url(../assets/img/sport-team.png);
   background-size: cover;
+  background-position: center;
   display: inline-block;
   height: 1.25rem;
   width: 1.25rem;
@@ -176,6 +177,63 @@ body {
 
 .depan {
   z-index: 1;
+  margin-top: 4rem;
 }
 
+/* Team Header Section */
+.ornament {
+  width: 199.66px;
+  height: 291.83px;
+  position: absolute;
+  margin-top: -140px;
+  z-index: -1;
+}
+
+/* Team SEction */
+.roboto {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.roboto p {
+  margin: 0;
+}
+
+.team-section img {
+  width: 225px;
+  height: 265px;
+}
+
+.team-section .shadow-pic {
+  box-shadow: 0 10px 10px #19345e8e;
+}
+
+.border-img-blue {
+  border: 10px solid #19345e;
+  border-radius: 5px;
+  width: 225px;
+  height: 265px;
+  margin-top: -248px;
+  margin-left: 35px;
+}
+
+.border-img {
+  border: 10px solid #f47522;
+  border-radius: 5px;
+  width: 225px;
+  height: 265px;
+  margin-top: -248px;
+  margin-left: 35px;
+}
+
+.check-now {
+  font-family: Muli, Roboto;
+  font-weight: bold;
+}
+
+.check-now a {
+  color: #19345e;
+}
+
+.check-now a::after {
+  content: " ⟶";
+}
 /* Akhir Global Break Point */

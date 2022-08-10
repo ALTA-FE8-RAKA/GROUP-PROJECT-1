@@ -64,7 +64,8 @@ body {
   text-decoration: none;
 }
 /* Pewarnaan Nav Item Yang Aktif */
-.active {
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
   color: #f47522;
 }
 /* Custom Button Agar Sesuai Prototype */
@@ -130,17 +131,6 @@ body {
   width: 1.25rem;
 }
 
-/* about section custom */
-.line hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 2px solid #f47522;
-  margin: 1em 0;
-  padding: 0;
-  opacity: 1;
-}
-
 /* Customisasi Panel Service Exp */
 .rounded-orange-bg {
   background-color: #f47522;
@@ -153,18 +143,39 @@ body {
 
 /* about Section */
 
-.bg-about {
-  background: url("../assets/img/bg-people@2x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+/* about heading section custom */
+.line hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #f47522;
+  margin: 1em 0;
+  padding: 0;
+  opacity: 1;
 }
 
-.mask {
-  position: absolute;
+/* About Jumbotron/Hero Section */
+
+.bg-about {
+  background-image: url("../assets/img/bg-people@2x.png");
+  background-size: cover;
+  height: 484px;
+  width: 100%;
+  position: relative;
+}
+
+.bg-about::after {
+  content: "";
+  display: block;
   width: 100%;
   height: 100%;
   background-color: rgba(25, 52, 94, 0.5);
+  position: absolute;
+  bottom: 0;
+}
+
+.depan {
+  z-index: 1;
 }
 
 /* Akhir Global Break Point */

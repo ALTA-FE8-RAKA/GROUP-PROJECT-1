@@ -57,14 +57,12 @@ body {
 }
 
 /* Line Kiri Kanan Judul Heading */
-.line hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 2px solid #f47522;
-  margin: 1em 0;
-  padding: 0;
-  opacity: 1;
+.dash span {
+  width: 35px;
+  height: 4px;
+  margin: 21px 15px;
+  background: #f47522;
+  border-radius: 2px;
 }
 
 .icon-calendar {
@@ -131,18 +129,34 @@ body {
   box-shadow: 0 10px 10px #19345e8e;
 }
 
-.border-img-blue {
-  border: 10px solid #19345e;
-  border-radius: 5px;
-  width: 20rem;
-  height: 23rem;
+.border2 {
+  width: 320px;
+  height: 360px;
+  margin-top: 20px;
+  margin-left: -340px;
+  position: absolute;
+  z-index: 1;
+  border: solid;
+  border-width: 10px !important;
+  border-color: #19345e !important;
+  border-radius: 10px;
 }
 
-.border-img {
-  border: 10px solid #f47522;
-  border-radius: 5px;
-  width: 20rem;
-  height: 23rem;
+.size {
+  width: 320px;
+  height: 360px;
+}
+
+.border {
+  width: 320px;
+  height: 360px;
+  margin-top: 20px;
+  margin-left: -340px;
+  position: absolute;
+  z-index: 1;
+  border-width: 10px !important;
+  border-color: #f47522 !important;
+  border-radius: 10px;
 }
 /* Akhir Team Section */
 

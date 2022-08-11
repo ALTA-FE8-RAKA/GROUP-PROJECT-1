@@ -58,17 +58,38 @@ body {
   color: #f47522;
 }
 
-/* Line Kiri Kanan Judul Heading */
-.line hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 2px solid #f47522;
-  margin: 1em 0;
-  padding: 0;
-  opacity: 1;
+.dashed span {
+  width: 35px;
+  height: 4px;
+  margin: 21px 15px;
+  background: #f47522;
+  border-radius: 2px;
 }
 
+.border {
+  width: 225px;
+  height: 265px;
+  margin-top: 18px;
+  margin-left: -242px;
+  position: absolute;
+  z-index: 1;
+  border-width: 10px !important;
+  border-color: #f47522 !important;
+  border-radius: 10px;
+}
+
+.border2 {
+  width: 225px;
+  height: 265px;
+  margin-top: 18px;
+  margin-left: -242px;
+  position: absolute;
+  z-index: 1;
+  border: solid;
+  border-width: 10px !important;
+  border-color: #19345e !important;
+  border-radius: 10px;
+}
 /* Akhir Utility */
 
 /* Navbar Custom */
@@ -146,6 +167,7 @@ body {
 /* Akhir Panel Service Exp */
 
 /* about Section */
+
 /* About Jumbotron/Hero Section */
 
 .bg-about {

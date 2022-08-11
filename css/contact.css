@@ -58,14 +58,12 @@ body {
 }
 
 /* Line Kiri Kanan Judul Heading */
-.line hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 2px solid #f47522;
-  margin: 1em 0;
-  padding: 0;
-  opacity: 1;
+.text-center span {
+  width: 35px;
+  height: 4px;
+  margin: 21px 15px;
+  background: #f47522;
+  border-radius: 2px;
 }
 /* Akhir Utility */
 

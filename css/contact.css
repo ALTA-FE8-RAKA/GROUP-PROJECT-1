@@ -1,6 +1,6 @@
 /* Import Font Yang Dibutuhkan */
-/* Popins Regular */
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins&display=swap");
+/* Popins Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
 
 /* Muli Black Ver */
 @font-face {
@@ -40,6 +40,7 @@ body {
 /* Utility */
 /* Custom Button Agar Sesuai Prototype */
 .myButton {
+  font-family: "Muli", Poppins, sans-serif;
   background-color: #f47522;
   border-radius: 28px;
   border-color: #f47522;
@@ -69,7 +70,6 @@ body {
 /* Akhir Utility */
 
 /* Global Breakpoint */
-
 /* Navbar Section */
 /* Pengaturan Ukuran Logo Agar Tidak Terlalu Besar */
 .navbar-brand img {
@@ -102,14 +102,106 @@ body {
 }
 /* Akhir Navbar */
 
-/* Blog Body */
-.bg-about a {
-  background-size: cover;
-  height: 410px;
-  width: 100%;
-  position: relative;
+/* Contact Bocy Section */
+.popins {
+  font-family: "Poppins", Muli, sans-serif;
 }
-/* Akhir Body */
+.phone {
+  background-image: url("../assets/img/phone.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+
+.email {
+  background-image: url("../assets/img/envelope.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+
+.website {
+  background-image: url("../assets/img/browser.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+
+.fb {
+  background-image: url("../assets/img/facebook.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+.tw {
+  background-image: url("../assets/img/twitter.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+.ig {
+  background-image: url("../assets/img/instagram.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+.in {
+  background-image: url("../assets/img/linkedin.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+.indent {
+  text-indent: 15px;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}
+
+.send::before {
+  content: "";
+  background-image: url(../assets/img/send-mail.png);
+  background-size: cover;
+  display: inline-block;
+  margin-right: 8px;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.send:hover::before {
+  background-image: url(../assets/img/send-mail-hover.png);
+  background-size: cover;
+  display: inline-block;
+  margin-right: 8px;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.form-control:focus {
+  border-color: #f47522;
+  box-shadow: inset 0 1px 1px rgba(244, 117, 34, 0.4), 0 0 5px rgba(244, 117, 34, 0.4);
+}
+/* Akhir Contact Body Section */
 
 /* footer */
 .footer {
@@ -140,4 +232,4 @@ body {
   margin: auto auto;
 }
 /* Akhir Footer */
-/* Akhir Global Breakpoint */
+/* Akhir GLobal Breakpoint */ ;

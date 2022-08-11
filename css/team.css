@@ -29,9 +29,7 @@
   font-weight: lighter;
 }
 
-/* Akhir Import Font */
-
-/* global Breakpoint */
+/* Global Break Point */
 
 /* Penggunaan font keseluruh area body */
 body {
@@ -69,9 +67,18 @@ body {
   opacity: 1;
 }
 
+.icon-calendar {
+  background-image: url("../assets/img/calendar.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  margin-right: 8px;
+}
 /* Akhir Utility */
 
-/* Navbar Custom */
+/* Navbar Section */
 /* Pengaturan Ukuran Logo Agar Tidak Terlalu Besar */
 .navbar-brand img {
   width: 110px;
@@ -101,140 +108,43 @@ body {
 .navbar-nav .show > .nav-link {
   color: #f47522;
 }
-/* Akhir Navbar Custom */
-
-/* Jumbotron Header */
-/* Customisasi Jumbotron/Hero Section Header */
-.jumbotron {
-  background-color: #edf6ff;
-}
-
-.orange-text {
-  color: #f47522;
-}
-
-.sport-team::before {
-  content: "";
-  background-image: url(../assets/img/sport-team.png);
-  background-size: cover;
-  display: inline-block;
-  margin-right: 8px;
-  height: 1.2rem;
-  width: 1.2rem;
-}
-
-.sport-team:hover::before {
-  background-image: url(../assets/img/sport-team-hover.png);
-  background-size: cover;
-  display: inline-block;
-  margin-right: 8px;
-  height: 1.2rem;
-  width: 1.2rem;
-}
-
-/* Akhir Jumbotron/Hero Section Header */
-
-/* Customisasi Panel Service Exp */
-.rounded-orange-bg {
-  background-color: #f47522;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  padding: 10px;
-  margin-right: 10px;
-}
-/* Akhir Panel Service Exp */
-
-/* about Section */
-/* About Jumbotron/Hero Section */
-
-.bg-about {
-  background-image: url("../assets/img/bg-people@2x.png");
-  background-size: cover;
-  height: 484px;
-  width: 100%;
-  position: relative;
-}
-
-.bg-about::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(25, 52, 94, 0.5);
-  position: absolute;
-  bottom: 0;
-}
-
-.depan {
-  z-index: 1;
-  margin-top: 4rem;
-}
-/* Akhir About Jumbotron/Hero Section */
+/* Akhir Navbar */
 
 /* Team Section */
-/* Team Header Section */
+/* Team Section Header */
 .ornament {
   width: 199.66px;
   height: 291.83px;
   position: absolute;
-  margin-top: -140px;
+  margin-top: -139px;
   z-index: -1;
 }
 
-/* Team Section Body */
-.roboto {
-  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
-}
-.roboto p {
-  margin: 0;
-}
-
-.team-section img {
-  width: 225px;
-  height: 265px;
+.ornament2 {
+  width: 199.66px;
+  height: 291.83px;
+  float: right;
+  margin-top: -290px;
 }
 
-.team-section .shadow-pic {
+.shadow-pic {
   box-shadow: 0 10px 10px #19345e8e;
 }
 
 .border-img-blue {
   border: 10px solid #19345e;
   border-radius: 5px;
-  width: 225px;
-  height: 265px;
-  margin-top: -248px;
-  margin-left: 35px;
+  width: 20rem;
+  height: 25rem;
 }
 
 .border-img {
   border: 10px solid #f47522;
   border-radius: 5px;
-  width: 225px;
-  height: 265px;
-  margin-top: -248px;
-  margin-left: 35px;
-}
-
-.check-now {
-  font-family: "Muli", Roboto;
-  font-weight: bold;
-}
-
-.check-now a {
-  color: #19345e;
-}
-
-.check-now a::after {
-  content: " ⟶";
+  width: 20rem;
+  height: 25rem;
 }
 /* Akhir Team Section */
-
-/* BLog Section */
-.hover-link a:hover {
-  color: #f47522;
-}
 
 /* footer */
 .footer {
@@ -256,5 +166,14 @@ body {
 .social-icons p {
   margin: 0;
 }
+
+.bdr-btm {
+  border-bottom: 1px dashed #19345e;
+  opacity: 0.5;
+  width: 60%;
+  display: block;
+  margin: auto auto;
+}
 /* Akhir Footer */
-/* Akhir Global Break Point */
+
+/* Akhir GLobal Break Point */

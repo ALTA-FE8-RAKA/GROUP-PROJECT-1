@@ -35,6 +35,7 @@
 body {
   font-family: "Muli", Roboto;
   color: #19345e;
+  height: 1535px;
 }
 
 /* Utility */
@@ -66,85 +67,17 @@ body {
   padding: 0;
   opacity: 1;
 }
-
-.icon-calendar {
-  background-image: url("../assets/img/calendar.png");
-  background-size: cover;
-  background-position: center;
-  display: inline-block;
-  height: 14px;
-  width: 14px;
-  margin-right: 8px;
-}
 /* Akhir Utility */
 
-/* Navbar Section */
-/* Pengaturan Ukuran Logo Agar Tidak Terlalu Besar */
-.navbar-brand img {
-  width: 110px;
-  height: 59px;
-  max-width: 100%;
+/* Global Breakpoint */
+/* Blog Body */
+.bg-about a {
+  background-size: cover;
+  height: 410px;
+  width: 100%;
+  position: relative;
 }
-
-/* Override Navbar Warna Text dari Default Bootstrap */
-.color-nav {
-  color: #19345e;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Pemberian Jarak Antar Nav Item */
-.nav-item {
-  margin: 1vw;
-}
-
-/* Pemberian Style Ketika Nav Item dihover */
-.color-nav:hover {
-  color: #f47522;
-  text-decoration: none;
-}
-/* Pewarnaan Nav Item Yang Aktif */
-.navbar-nav .nav-link.active,
-.navbar-nav .show > .nav-link {
-  color: #f47522;
-}
-/* Akhir Navbar */
-
-/* Team Section */
-/* Team Section Header */
-.ornament {
-  width: 199.66px;
-  height: 291.83px;
-  position: absolute;
-  margin-top: -139px;
-  z-index: -1;
-}
-
-.ornament2 {
-  width: 199.66px;
-  height: 291.83px;
-  float: right;
-  margin-top: -290px;
-}
-
-.shadow-pic {
-  box-shadow: 0 10px 10px #19345e8e;
-}
-
-.border-img-blue {
-  border: 10px solid #19345e;
-  border-radius: 5px;
-  width: 20rem;
-  height: 23rem;
-}
-
-.border-img {
-  border: 10px solid #f47522;
-  border-radius: 5px;
-  width: 20rem;
-  height: 23rem;
-}
-/* Akhir Team Section */
+/* Akhir Body */
 
 /* footer */
 .footer {
@@ -175,5 +108,4 @@ body {
   margin: auto auto;
 }
 /* Akhir Footer */
-
-/* Akhir GLobal Break Point */
+/* Akhir Global Breakpoint */
